@@ -19,8 +19,8 @@
 88          88       88 "8a,   ,a8" 88       88 "8b,   ,aa  
 88          88       88  `"YbbdP"'  88       88  `"Ybbd8"'  
 </pre>                                                           
-   
-###A project by Benjamin Zhang[zenbhang] and Matt Schultz[mschultz6]
+A project by Benjamin Zhang[zenbhang] and Matt Schultz[mschultz6]
 
 ##What is Mouse Phone?
+Mouse Phone is a project that started as a stupid joke. The combination of late night work and badly written lab assignments resulted in this idea.
 
