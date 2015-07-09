@@ -27,6 +27,20 @@
                 android:layout_weight="1" android:text="@string/dummy_button" />
 
         </LinearLayout>
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="339dp"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_gravity="left|top" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="339dp"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_gravity="right|top" />
     </FrameLayout>
 
 </FrameLayout>
