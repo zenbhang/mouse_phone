@@ -24,13 +24,23 @@ Mouse Phone is a project that started as a stupid joke. The combination of late 
 
 
 ##Timeline
+
 [ ]Research
+
 [ ]Design and UML
+
 [ ]Readme
+
 [ ]Actual Development
+
 [ ]Working Alpha
+
 [ ]Beta
+
 [ ]Release Alpha
+
 [ ]Release Beta
+
 [ ]Release Candidate
+
 [ ]Release
