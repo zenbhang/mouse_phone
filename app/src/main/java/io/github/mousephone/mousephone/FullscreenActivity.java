@@ -101,18 +101,20 @@ public class FullscreenActivity extends Activity {
         contentView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mSystemUiHider.show();
+                /* toggle on click two options
                 if (TOGGLE_ON_CLICK) {
                     mSystemUiHider.toggle();
-                } else {
-                    mSystemUiHider.show();
+                    mSystemUiHider.hide();
                 }
+                */
             }
         });
 
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        findViewById(R.id.btnSettings).setOnTouchListener(mDelayHideTouchListener);
     }
 
     @Override
@@ -134,9 +136,11 @@ public class FullscreenActivity extends Activity {
     View.OnTouchListener mDelayHideTouchListener = new View.OnTouchListener() {
         @Override
         public boolean onTouch(View view, MotionEvent motionEvent) {
+            /*
             if (AUTO_HIDE) {
                 delayedHide(AUTO_HIDE_DELAY_MILLIS);
             }
+            */
             return false;
         }
     };
@@ -145,7 +149,7 @@ public class FullscreenActivity extends Activity {
     Runnable mHideRunnable = new Runnable() {
         @Override
         public void run() {
-            mSystemUiHider.hide();
+            mSystemUiHider.show();
         }
     };
 
@@ -154,7 +158,9 @@ public class FullscreenActivity extends Activity {
      * previously scheduled calls.
      */
     private void delayedHide(int delayMillis) {
+        /*
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
+        */
     }
 }

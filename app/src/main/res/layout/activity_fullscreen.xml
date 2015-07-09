@@ -14,7 +14,8 @@
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
     <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        android:background="#ff343434">
 
         <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
             android:layout_width="match_parent" android:layout_height="wrap_content"
@@ -22,24 +23,25 @@
             android:background="@color/black_overlay" android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
+            <Button android:id="@+id/btnSettings" style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp" android:layout_height="wrap_content"
-                android:layout_weight="1" android:text="@string/dummy_button" />
+                android:layout_weight="1" android:text="Settings" />
 
         </LinearLayout>
 
         <Button
-            android:layout_width="198dp"
+            android:layout_width="192dp"
             android:layout_height="339dp"
-            android:text="New Button"
-            android:id="@+id/button"
-            android:layout_gravity="left|top" />
+            android:text="Left Click"
+            android:id="@+id/btnLeft"
+            android:layout_gravity="left|top"
+            android:nestedScrollingEnabled="true" />
 
         <Button
             android:layout_width="190dp"
             android:layout_height="339dp"
-            android:text="New Button"
-            android:id="@+id/button2"
+            android:text="Right Click"
+            android:id="@+id/btnRight"
             android:layout_gravity="right|top" />
     </FrameLayout>
 
