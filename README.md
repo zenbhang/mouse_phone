@@ -45,6 +45,12 @@ Mouse Phone is a project that started as a stupid joke. The combination of late 
 
 [ ]Release
 
+##Donate
+Flattr
+
+Paypal
+
 ##Legal
 ![Creative Commons](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
 MousePhone by Benjamin Zhang and Matt Schultz is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
