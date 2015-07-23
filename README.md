@@ -22,6 +22,12 @@ A project by **Benjamin Zhang** [zenbhang] and **Matt Schultz** [mschultz6]
 ##What is Mouse Phone?
 Mouse Phone is a project that started as a stupid joke. The combination of late night work and badly written CSCI lab assignments resulted in this idea. The idea is this: make an app that allows the user to use a phone as a mouse.
 
+##Donate
+<a href="https://flattr.com/submit/auto?user_id=zenbhang&url=https%3A%2F%2Fflattr.com%2Fprofile%2Fzenbhang" target="_blank"><img src="//button.flattr.com/flattr-badge-large.png" alt="Flattr me!" title="Flattr me!" border="0"></a>
+
+
+Paypal
+
 
 ##Timeline
 
@@ -45,10 +51,6 @@ Mouse Phone is a project that started as a stupid joke. The combination of late 
 
 [ ]Release
 
-##Donate
-Flattr
-
-Paypal
 
 ##Legal
 ![Creative Commons](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
